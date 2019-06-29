@@ -2,7 +2,7 @@
   "name": "lumdb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vitaminvp.github.io/React-Testing-For-Beginners/",
+  "homepage": "https://vitaminvp.github.io/react-testing-for-beginners/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
