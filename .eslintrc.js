@@ -32,5 +32,8 @@ module.exports = {
       "toBe": true,
       "getByText": true,
       "afterEach": true,
+      "toBeTruthy": true,
+      "toHaveBeenCalledTimes": true,
+      "toBeCalled": true,
     }
 };
