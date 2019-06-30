@@ -1,6 +1,6 @@
 import React from "react";
 import { render, cleanup, fireEvent } from "react-testing-library";
-import MovieForm from "./MovieForm";
+import MovieForm from "../MovieForm";
 afterEach(cleanup);
 
 // const onSubmit = () => console.log("hi");

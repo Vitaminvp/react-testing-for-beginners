@@ -1,6 +1,6 @@
 import React from "react";
 import { render, cleanup, fireEvent } from "react-testing-library";
-import NewMovie from "./NewMovie";
+import NewMovie from "../NewMovie";
 afterEach(cleanup);
 
 test("render properly", () => {
@@ -8,7 +8,7 @@ test("render properly", () => {
   //debug();
   expect(getByTestId("page-title").textContent).toBe("New Movie");
   expect(queryByTestId("movie-form").textContent).toBeTruthy();
-  // expect(container.firstChild).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
   // console.log(container.firstChild);
 
 
